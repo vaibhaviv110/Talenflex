@@ -1,0 +1,78 @@
+.title {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+    color: #16325b;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.search-box {
+    width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.field {
+    flex: 1;
+    position: relative;
+}
+
+.field input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search-btn {
+    width: 140px;
+    height: 50px;
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.skill-list {
+    display: none;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    max-height: 220px;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.skill-list div {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.skill-list div:hover {
+    background: #0d6efd;
+    color: #fff;
+}
